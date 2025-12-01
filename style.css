@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carte{
+    background-color: aqua;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 7px 7px 10px -6px black;
+    border-radius: 20px;
+}
+.carte__button{
+    all: unset;
+    background-color: blueviolet;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
