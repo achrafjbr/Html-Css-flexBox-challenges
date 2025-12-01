@@ -1,0 +1,21 @@
+
+
+.galerie{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.title{
+    text-align:center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
