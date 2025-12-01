@@ -1,0 +1,40 @@
+form>input {
+    display: block;
+    margin: 10px;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    width: 50%;
+    height: 50%;
+}
+
+form :where(:nth-child(1), :nth-child(2)) {
+    width: 368px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+form> :last-child {
+    margin: auto;
+    cursor: pointer;
+    width: calc(368px / 1.5);
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(194, 237, 150);
+    box-shadow: 2px 2px 6px 1px gray;
+
+}
